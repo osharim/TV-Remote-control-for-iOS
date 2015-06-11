@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1CFD2AF8-261D-4317-896B-4F12ECB985A0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ISEL Remoto</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>37DE23D857420B878347D37522F23C5A060F99EF</key>
+		<string>bentel.mx:repository/remote_control/m_ios_remote_control.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ISEL Remoto.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>37DE23D857420B878347D37522F23C5A060F99EF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bentel.mx:repository/remote_control/m_ios_remote_control.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>37DE23D857420B878347D37522F23C5A060F99EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>37DE23D857420B878347D37522F23C5A060F99EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>control_Remoto_bentel</string>
+		</dict>
+	</array>
+</dict>
+</plist>

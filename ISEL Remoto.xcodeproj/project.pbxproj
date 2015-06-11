@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB42D4431B29643B007E07A6 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = CB42D4421B29643B007E07A6 /* button.png */; };
+		CB42D4451B29819F007E07A6 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = CB42D4441B29819F007E07A6 /* bar.png */; };
+		CB42D4471B298971007E07A6 /* power.png in Resources */ = {isa = PBXBuildFile; fileRef = CB42D4461B298971007E07A6 /* power.png */; };
+		CBA0D95718D7A2AE0049BEAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA0D95618D7A2AE0049BEAA /* Foundation.framework */; };
+		CBA0D95918D7A2AE0049BEAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA0D95818D7A2AE0049BEAA /* CoreGraphics.framework */; };
+		CBA0D95B18D7A2AE0049BEAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA0D95A18D7A2AE0049BEAA /* UIKit.framework */; };
+		CBA0D96118D7A2AE0049BEAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA0D95F18D7A2AE0049BEAA /* InfoPlist.strings */; };
+		CBA0D96318D7A2AE0049BEAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA0D96218D7A2AE0049BEAA /* main.m */; };
+		CBA0D96718D7A2AF0049BEAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA0D96618D7A2AF0049BEAA /* AppDelegate.m */; };
+		CBA0D96A18D7A2AF0049BEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA0D96818D7A2AF0049BEAA /* Main.storyboard */; };
+		CBA0D96F18D7A2AF0049BEAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA0D96E18D7A2AF0049BEAA /* Images.xcassets */; };
+		CBA0D97618D7A2AF0049BEAA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA0D97518D7A2AF0049BEAA /* XCTest.framework */; };
+		CBA0D97718D7A2AF0049BEAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA0D95618D7A2AE0049BEAA /* Foundation.framework */; };
+		CBA0D97818D7A2AF0049BEAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA0D95A18D7A2AE0049BEAA /* UIKit.framework */; };
+		CBA0D98018D7A2AF0049BEAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA0D97E18D7A2AF0049BEAA /* InfoPlist.strings */; };
+		CBA0D98218D7A2AF0049BEAA /* ISEL_RemotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA0D98118D7A2AF0049BEAA /* ISEL_RemotoTests.m */; };
+		CBFFE07D18D7AF01004A3694 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFE07C18D7AF01004A3694 /* MasterViewController.m */; };
+		CBFFE09D18D7CFDE004A3694 /* EncodeSignalFSK.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFE09C18D7CFDE004A3694 /* EncodeSignalFSK.m */; };
+		CBFFE0A218D7FFDD004A3694 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFE0A118D7FFDD004A3694 /* RemoteControl.m */; };
+		CBFFE0A418D8047F004A3694 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFFE0A318D8047F004A3694 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBA0D97918D7A2AF0049BEAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA0D94B18D7A2AE0049BEAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA0D95218D7A2AE0049BEAA;
+			remoteInfo = "ISEL Remoto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB42D4421B29643B007E07A6 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		CB42D4441B29819F007E07A6 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		CB42D4461B298971007E07A6 /* power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power.png; sourceTree = "<group>"; };
+		CBA0D95318D7A2AE0049BEAA /* ISEL Remoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISEL Remoto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA0D95618D7A2AE0049BEAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBA0D95818D7A2AE0049BEAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBA0D95A18D7A2AE0049BEAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBA0D95E18D7A2AE0049BEAA /* ISEL Remoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ISEL Remoto-Info.plist"; sourceTree = "<group>"; };
+		CBA0D96018D7A2AE0049BEAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBA0D96218D7A2AE0049BEAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBA0D96418D7A2AE0049BEAA /* ISEL Remoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISEL Remoto-Prefix.pch"; sourceTree = "<group>"; };
+		CBA0D96518D7A2AE0049BEAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBA0D96618D7A2AF0049BEAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBA0D96918D7A2AF0049BEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBA0D96E18D7A2AF0049BEAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBA0D97418D7A2AF0049BEAA /* ISEL RemotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISEL RemotoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA0D97518D7A2AF0049BEAA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CBA0D97D18D7A2AF0049BEAA /* ISEL RemotoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ISEL RemotoTests-Info.plist"; sourceTree = "<group>"; };
+		CBA0D97F18D7A2AF0049BEAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBA0D98118D7A2AF0049BEAA /* ISEL_RemotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISEL_RemotoTests.m; sourceTree = "<group>"; };
+		CBFFE07B18D7AF01004A3694 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CBFFE07C18D7AF01004A3694 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CBFFE09B18D7CFDE004A3694 /* EncodeSignalFSK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeSignalFSK.h; sourceTree = SOURCE_ROOT; };
+		CBFFE09C18D7CFDE004A3694 /* EncodeSignalFSK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncodeSignalFSK.m; sourceTree = SOURCE_ROOT; };
+		CBFFE0A018D7FFDD004A3694 /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		CBFFE0A118D7FFDD004A3694 /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		CBFFE0A318D8047F004A3694 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA0D95018D7A2AE0049BEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFFE0A418D8047F004A3694 /* AudioToolbox.framework in Frameworks */,
+				CBA0D95918D7A2AE0049BEAA /* CoreGraphics.framework in Frameworks */,
+				CBA0D95B18D7A2AE0049BEAA /* UIKit.framework in Frameworks */,
+				CBA0D95718D7A2AE0049BEAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA0D97118D7A2AF0049BEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA0D97618D7A2AF0049BEAA /* XCTest.framework in Frameworks */,
+				CBA0D97818D7A2AF0049BEAA /* UIKit.framework in Frameworks */,
+				CBA0D97718D7A2AF0049BEAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB42D43F1B2962E9007E07A6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CB42D4461B298971007E07A6 /* power.png */,
+				CB42D4441B29819F007E07A6 /* bar.png */,
+				CB42D4421B29643B007E07A6 /* button.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CBA0D94A18D7A2AE0049BEAA = {
+			isa = PBXGroup;
+			children = (
+				CBA0D95C18D7A2AE0049BEAA /* ISEL Remoto */,
+				CBA0D97B18D7A2AF0049BEAA /* ISEL RemotoTests */,
+				CBA0D95518D7A2AE0049BEAA /* Frameworks */,
+				CBA0D95418D7A2AE0049BEAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA0D95418D7A2AE0049BEAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA0D95318D7A2AE0049BEAA /* ISEL Remoto.app */,
+				CBA0D97418D7A2AF0049BEAA /* ISEL RemotoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA0D95518D7A2AE0049BEAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBFFE0A318D8047F004A3694 /* AudioToolbox.framework */,
+				CBA0D95618D7A2AE0049BEAA /* Foundation.framework */,
+				CBA0D95818D7A2AE0049BEAA /* CoreGraphics.framework */,
+				CBA0D95A18D7A2AE0049BEAA /* UIKit.framework */,
+				CBA0D97518D7A2AF0049BEAA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBA0D95C18D7A2AE0049BEAA /* ISEL Remoto */ = {
+			isa = PBXGroup;
+			children = (
+				CB42D43F1B2962E9007E07A6 /* images */,
+				CBFFE09F18D7E268004A3694 /* Views */,
+				CBFFE09A18D7CF9D004A3694 /* EncodeSignal */,
+				CBA0D96E18D7A2AF0049BEAA /* Images.xcassets */,
+				CBA0D95D18D7A2AE0049BEAA /* Supporting Files */,
+			);
+			path = "ISEL Remoto";
+			sourceTree = "<group>";
+		};
+		CBA0D95D18D7A2AE0049BEAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA0D95E18D7A2AE0049BEAA /* ISEL Remoto-Info.plist */,
+				CBA0D95F18D7A2AE0049BEAA /* InfoPlist.strings */,
+				CBA0D96218D7A2AE0049BEAA /* main.m */,
+				CBA0D96418D7A2AE0049BEAA /* ISEL Remoto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBA0D97B18D7A2AF0049BEAA /* ISEL RemotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA0D98118D7A2AF0049BEAA /* ISEL_RemotoTests.m */,
+				CBA0D97C18D7A2AF0049BEAA /* Supporting Files */,
+			);
+			path = "ISEL RemotoTests";
+			sourceTree = "<group>";
+		};
+		CBA0D97C18D7A2AF0049BEAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA0D97D18D7A2AF0049BEAA /* ISEL RemotoTests-Info.plist */,
+				CBA0D97E18D7A2AF0049BEAA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBFFE09A18D7CF9D004A3694 /* EncodeSignal */ = {
+			isa = PBXGroup;
+			children = (
+				CBFFE09B18D7CFDE004A3694 /* EncodeSignalFSK.h */,
+				CBFFE09C18D7CFDE004A3694 /* EncodeSignalFSK.m */,
+				CBFFE0A018D7FFDD004A3694 /* RemoteControl.h */,
+				CBFFE0A118D7FFDD004A3694 /* RemoteControl.m */,
+			);
+			name = EncodeSignal;
+			sourceTree = "<group>";
+		};
+		CBFFE09F18D7E268004A3694 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CBA0D96818D7A2AF0049BEAA /* Main.storyboard */,
+				CBA0D96518D7A2AE0049BEAA /* AppDelegate.h */,
+				CBA0D96618D7A2AF0049BEAA /* AppDelegate.m */,
+				CBFFE07B18D7AF01004A3694 /* MasterViewController.h */,
+				CBFFE07C18D7AF01004A3694 /* MasterViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA0D95218D7A2AE0049BEAA /* ISEL Remoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA0D98518D7A2AF0049BEAA /* Build configuration list for PBXNativeTarget "ISEL Remoto" */;
+			buildPhases = (
+				CBA0D94F18D7A2AE0049BEAA /* Sources */,
+				CBA0D95018D7A2AE0049BEAA /* Frameworks */,
+				CBA0D95118D7A2AE0049BEAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ISEL Remoto";
+			productName = "ISEL Remoto";
+			productReference = CBA0D95318D7A2AE0049BEAA /* ISEL Remoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBA0D97318D7A2AF0049BEAA /* ISEL RemotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA0D98818D7A2AF0049BEAA /* Build configuration list for PBXNativeTarget "ISEL RemotoTests" */;
+			buildPhases = (
+				CBA0D97018D7A2AF0049BEAA /* Sources */,
+				CBA0D97118D7A2AF0049BEAA /* Frameworks */,
+				CBA0D97218D7A2AF0049BEAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA0D97A18D7A2AF0049BEAA /* PBXTargetDependency */,
+			);
+			name = "ISEL RemotoTests";
+			productName = "ISEL RemotoTests";
+			productReference = CBA0D97418D7A2AF0049BEAA /* ISEL RemotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA0D94B18D7A2AE0049BEAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Omr;
+				TargetAttributes = {
+					CBA0D97318D7A2AF0049BEAA = {
+						TestTargetID = CBA0D95218D7A2AE0049BEAA;
+					};
+				};
+			};
+			buildConfigurationList = CBA0D94E18D7A2AE0049BEAA /* Build configuration list for PBXProject "ISEL Remoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBA0D94A18D7A2AE0049BEAA;
+			productRefGroup = CBA0D95418D7A2AE0049BEAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA0D95218D7A2AE0049BEAA /* ISEL Remoto */,
+				CBA0D97318D7A2AF0049BEAA /* ISEL RemotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA0D95118D7A2AE0049BEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA0D96F18D7A2AF0049BEAA /* Images.xcassets in Resources */,
+				CB42D4451B29819F007E07A6 /* bar.png in Resources */,
+				CB42D4431B29643B007E07A6 /* button.png in Resources */,
+				CBA0D96118D7A2AE0049BEAA /* InfoPlist.strings in Resources */,
+				CBA0D96A18D7A2AF0049BEAA /* Main.storyboard in Resources */,
+				CB42D4471B298971007E07A6 /* power.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA0D97218D7A2AF0049BEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA0D98018D7A2AF0049BEAA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA0D94F18D7A2AE0049BEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFFE09D18D7CFDE004A3694 /* EncodeSignalFSK.m in Sources */,
+				CBA0D96718D7A2AF0049BEAA /* AppDelegate.m in Sources */,
+				CBFFE07D18D7AF01004A3694 /* MasterViewController.m in Sources */,
+				CBA0D96318D7A2AE0049BEAA /* main.m in Sources */,
+				CBFFE0A218D7FFDD004A3694 /* RemoteControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA0D97018D7A2AF0049BEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA0D98218D7A2AF0049BEAA /* ISEL_RemotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA0D97A18D7A2AF0049BEAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA0D95218D7A2AE0049BEAA /* ISEL Remoto */;
+			targetProxy = CBA0D97918D7A2AF0049BEAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBA0D95F18D7A2AE0049BEAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA0D96018D7A2AE0049BEAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBA0D96818D7A2AF0049BEAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA0D96918D7A2AF0049BEAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA0D97E18D7A2AF0049BEAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA0D97F18D7A2AF0049BEAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA0D98318D7A2AF0049BEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBA0D98418D7A2AF0049BEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBA0D98618D7A2AF0049BEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISEL Remoto/ISEL Remoto-Prefix.pch";
+				INFOPLIST_FILE = "ISEL Remoto/ISEL Remoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBA0D98718D7A2AF0049BEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISEL Remoto/ISEL Remoto-Prefix.pch";
+				INFOPLIST_FILE = "ISEL Remoto/ISEL Remoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBA0D98918D7A2AF0049BEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ISEL Remoto.app/ISEL Remoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISEL Remoto/ISEL Remoto-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ISEL RemotoTests/ISEL RemotoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CBA0D98A18D7A2AF0049BEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ISEL Remoto.app/ISEL Remoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISEL Remoto/ISEL Remoto-Prefix.pch";
+				INFOPLIST_FILE = "ISEL RemotoTests/ISEL RemotoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA0D94E18D7A2AE0049BEAA /* Build configuration list for PBXProject "ISEL Remoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA0D98318D7A2AF0049BEAA /* Debug */,
+				CBA0D98418D7A2AF0049BEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA0D98518D7A2AF0049BEAA /* Build configuration list for PBXNativeTarget "ISEL Remoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA0D98618D7A2AF0049BEAA /* Debug */,
+				CBA0D98718D7A2AF0049BEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA0D98818D7A2AF0049BEAA /* Build configuration list for PBXNativeTarget "ISEL RemotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA0D98918D7A2AF0049BEAA /* Debug */,
+				CBA0D98A18D7A2AF0049BEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA0D94B18D7A2AE0049BEAA /* Project object */;
+}

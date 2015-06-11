@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C94b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Fsx-TT-Mui">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--iR Control-->
+        <scene sceneID="Hb9-xQ-Ohb">
+            <objects>
+                <tableViewController id="irP-k4-RdO" customClass="MasterViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="eVZ-oB-YUg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.20000001788139343" green="0.25098040699958801" blue="0.36078432202339172" alpha="1" colorSpace="deviceRGB"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="U84-YB-TQG">
+                            <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="top" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sWe-1l-vtO">
+                                    <rect key="frame" x="9" y="72" width="302" height="324"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfi-TJ-aCe">
+                                            <rect key="frame" x="205" y="24" width="89" height="45"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <state key="normal" title="Channel +" backgroundImage="button.png">
+                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="ChannelUp:" destination="irP-k4-RdO" eventType="touchUpInside" id="85X-Mt-ZgG"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TX4-ti-fzl">
+                                            <rect key="frame" x="107" y="25" width="88" height="44"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <state key="normal" title="Channel -" backgroundImage="button.png">
+                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="ChannelDown:" destination="irP-k4-RdO" eventType="touchUpInside" id="hhN-1J-GSd"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXf-g8-qYf">
+                                            <rect key="frame" x="8" y="25" width="86" height="44"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <state key="normal" backgroundImage="power.png">
+                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="Power:" destination="irP-k4-RdO" eventType="touchUpInside" id="6fn-Up-W64"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.18039216101169586" green="0.19607844948768616" blue="0.20784315466880798" alpha="1" colorSpace="deviceRGB"/>
+                                </view>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="VpX-Ul-ahT">
+                                    <rect key="frame" x="11" y="8" width="303" height="56"/>
+                                </imageView>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Phillips" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fW5-7w-sJA">
+                                    <rect key="frame" x="19" y="21" width="287" height="30"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" red="0.23921570181846619" green="0.23529413342475891" blue="0.25882354378700256" alpha="1" colorSpace="deviceRGB"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="irP-k4-RdO" id="7k6-ur-aZO"/>
+                            <outlet property="delegate" destination="irP-k4-RdO" id="IZA-GV-e9Q"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="iR Control" id="zJg-xE-d0U">
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="abE-GW-RcL"/>
+                        <barButtonItem key="rightBarButtonItem" title="Ayuda" id="RBm-9A-mqm"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="UIViewContainerButtons" destination="sWe-1l-vtO" id="Hkl-nR-CQg"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f1g-Lq-YrN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="290" y="368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dsb-Iu-4r1">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="Fsx-TT-Mui" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jCd-z1-c3e">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="irP-k4-RdO" kind="relationship" relationship="rootViewController" id="Fe5-qV-xqx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1tX-8q-kvJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-170" y="373"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bar.png" width="610" height="98"/>
+        <image name="button.png" width="149" height="71"/>
+        <image name="power.png" width="153" height="77"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
