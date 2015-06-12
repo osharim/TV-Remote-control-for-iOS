@@ -6,8 +6,19 @@ Una aplicación para poder controlar todos los dispositivos electronicos en tu h
 
 Requerimientos
 ----------
-
 * HARDWARE jack
+
+Como funciona
+----------
+
+Emite una señal usando Modulación por desplazamiento de fase no coherente (FSK NC), formando un par de bits (1,0) para estos a traves de memoria dinamica
+emitir todo el protocolo que sea requerido en el dispositivo final.
+
+Señal emitida
+----------
+
+![signal](resources/signal.png)
+
 
 ## License
 [LICENSE](https://github.com/osharim/iR-control/blob/master/LICENSE).
