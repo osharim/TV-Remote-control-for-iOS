@@ -2,7 +2,7 @@
 iR Control
 ----------
 
-Una aplicación para poder controlar todos los dispositivos electronicos en tu hogar.
+Una aplicación para poder controlar todos los dispositivos electronicos IR en tu hogar.
 
 Requerimientos
 ----------
